@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: lemonchiffon;
+    font-family: "Nunito", sans-serif;
+}
+
+#titolo {
+    color: hotpink;
+    text-shadow: 4px 4px ghostwhite;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#backrisultato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: lightcoral;
+    width: 45rem;
+    height: 20rem;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.prisultato {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.prisultatoant {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftarrow {
+    position: absolute;
+    left: calc(50% - 14px);
+    top: 0;
+    width: 20px;
+    cursor: pointer;
+    background-color: ghostwhite;
+    padding: 8px;
+    border-radius: 40%;
+    z-index: 10;
+    margin-left: 5px;
+    transform: rotate(90deg);
+}
+
+.risultato {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+#rightarrow {
+    position: absolute;
+    left: calc(50% - 14px);
+    bottom: 0;
+    width: 20px;
+    cursor: pointer;
+    background-color: ghostwhite;
+    padding: 8px;
+    border-radius: 40%;
+    z-index: 10;
+    margin-right: 5px;
+    transform: rotate(90deg);
+}
